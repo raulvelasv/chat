@@ -64,7 +64,7 @@
   
   nav {
     background-color: #F0F8FF;
-    padding: 10px;
+    padding:1px;
     margin-bottom: 10px;
     border-radius: 5px;
   }
@@ -105,17 +105,17 @@
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
-    display: flex; /* Mostrar los chats en una fila */
+    display: flex; 
   }
   
   .chat {
-    flex: 1; /* Ocupar el espacio disponible en la fila */
-    height: 50px;
+    flex: 1; 
+    height: 60px;
     overflow-y: scroll;
     border: 1px solid #008080;
     padding: 10px;
-    margin-right: 10px; /* Espacio entre los chats */
-    margin-bottom: 10px;
+    margin-right: 10px; 
+    margin-bottom: 0px;
   }
   
   .container-boton {
