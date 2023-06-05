@@ -1,0 +1,141 @@
+/* Estilos para el formulario de inicio de sesión */
+#form {
+    background-color: #F0F8FF;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  label, input[type="text"], input[type="password"], button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .result {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  /* Estilos para el formulario de registro */
+  .contenido {
+    background-color: #F0FFF0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .registro {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  h1 {
+    color: #008080;
+  }
+  
+  input[type="text"], input[type="password"], select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #008080;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    background-color: #F0F8FF;
+  }
+  
+  /* Estilos para el chat */
+  header {
+    background-color: #008080;
+    padding: 10px;
+  }
+  
+  h1#titulo {
+    color: white;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #F0F8FF;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  label, input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  select {
+    width: 105%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #008080;
+    margin-bottom: 10px;
+    background-color: #F0F8FF;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .pestaña {
+    flex: 1;
+    background-color: #008080;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .pestaña:hover {
+    background-color: #006666;
+  }
+  
+  .chat-container {
+    background-color: #F0FFF0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex; /* Mostrar los chats en una fila */
+  }
+  
+  .chat {
+    flex: 1; /* Ocupar el espacio disponible en la fila */
+    height: 50px;
+    overflow-y: scroll;
+    border: 1px solid #008080;
+    padding: 10px;
+    margin-right: 10px; /* Espacio entre los chats */
+    margin-bottom: 10px;
+  }
+  
+  .container-boton {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #008080;
+  }
+  
+  .button {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }

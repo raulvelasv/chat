@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="js.js"></script>
+    <title>Registro</title>
+</head>
+
+<body onload="getPaises()">
+    <div class="contenido">
+        <div class="registro">
+                <h1>REGÍSTRATE</h1>
+                <form id="formulario">
+                    <input type="text" name="user" id="user" placeholder="Usuario" required>
+                    <input type="text" name="mail" id="mail" placeholder="Email" required>
+                    <select name="pais" id="pais">
+                        <option value="" disabled selected hidden>Seleccionar nacionalidad</option>
+                    </select>
+                    <input type="password" name="pass" id="pass" placeholder="Contraseña" required>
+                    <input type="password" name="repeatpass" id="repeatpass" placeholder="Confirmar contraseña" oninput="comprobarContraseña()" required>
+                    <div id="respuesta"></div>
+                    <button type="submit" onclick="enviarRegistro();return false">Crear cuenta</button>
+                    <p id="ini">¿YA TIENES UNA CUENTA? <a href="inicioSesion.html" target="_self">INICIAR SESIÓN</a></p>
+                    <div id="result"></div>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
